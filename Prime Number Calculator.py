@@ -10,8 +10,8 @@ def Primemısöyle(number):
             if number % i == 0:
                 return False
             i += 2
-        else:
-            return True
+            
+        return True
 number = int(input("Enter a number: "))
 if Primemısöyle(number):
     print(f"{number} is a prime number")
